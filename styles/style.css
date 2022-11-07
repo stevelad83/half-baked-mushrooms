@@ -205,7 +205,7 @@ footer {
     bottom: 200px;
 }
 
-.mushroom {
+.mushroom-porcini {
     width: 100px;
     height: 100px;
     background-size: contain;
@@ -213,6 +213,29 @@ footer {
     background-image: url('../assets/porcini.png');
 }
 
+.mushroom-fungus {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/fungus.png');
+}
+
+.mushroom-chanterelle {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/chanterelle.png');
+}
+
+.mushroom-morel {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../assets/morel.png');
+}
 label {
     font-size: 2rem;
 }
