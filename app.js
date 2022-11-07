@@ -41,10 +41,18 @@ addMushroomButton.addEventListener('click', () => {
 });
 
 addFriendButton.addEventListener('click', () => {
+    const name = friendInputEl.value;
     // get the name from the input
     // create a new friend object
+    const newFriend = {
+        name: name || `Friend #${Math.floor(Math.random() * 1000)}`,
+        satisfaction: 1,
+    };
+    friendData.push(newFriend);
     // push it into the friends state array, passed in as an argument
+    friendInputEl.value = '';
     // reset the input
+    displayFriends();
     // display all the friends (use a function here)
 });
 
